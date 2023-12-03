@@ -60,7 +60,7 @@ function Detail({userName, quizList, QuizLength}) {
                 : 
                 <>
                 <div>
-                  <p className='text-lg'>총 <span className="font-bold text-indigo-500 text-xl">{QuizLength}</span>문제 중 <span className="font-bold text-indigo-500 text-xl">{_score}</span>문제를 맞추셨으며, 점수는 <span className='text-indigo-500 font-bold text-xl'>{Math.floor((_score / quizList.length)*100)}</span>점 입니다.</p>
+                  <p className='text-lg mt-12'>총 <span className="font-bold text-indigo-500 text-xl ">{QuizLength}</span>문제 중 <span className="font-bold text-indigo-500 text-xl">{_score}</span>문제를 맞추셨으며, 점수는 <span className='text-indigo-500 font-bold text-xl'>{Math.floor((_score / quizList.length)*100)}</span>점 입니다.</p>
                   <p className="flex items-center mt-4">
                     내가 선택한 답안 : <span className='bg-gray-300 w-5 h-5 block mr-5 ml-2'></span>
                     정답 : <span className='bg-sky-300 w-5 h-5 block mr-5 ml-2'></span>
